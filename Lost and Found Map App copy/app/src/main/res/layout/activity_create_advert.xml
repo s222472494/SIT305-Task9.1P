@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Spinner for advert type -->
+        <Spinner
+            android:id="@+id/typeSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:prompt="@string/select_type" />
+
+        <EditText
+            android:id="@+id/nameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:layout_marginTop="12dp" />
+
+        <EditText
+            android:id="@+id/phoneEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone"
+            android:inputType="phone"
+            android:layout_marginTop="12dp" />
+
+        <EditText
+            android:id="@+id/descriptionEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Description"
+            android:inputType="textMultiLine"
+            android:layout_marginTop="12dp" />
+
+        <EditText
+            android:id="@+id/dateEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Date"
+            android:inputType="date"
+            android:layout_marginTop="12dp" />
+
+        <EditText
+            android:id="@+id/locationEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Location"
+            android:focusable="true"
+            android:clickable="true"
+            android:inputType="textPostalAddress" />
+
+
+
+        <!-- Get Current Location Button -->
+        <Button
+            android:id="@+id/getLocationButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Current Location"
+            android:layout_marginTop="12dp" />
+
+        <!-- Pick from Map Button -->
+        <Button
+            android:id="@+id/pickFromMapButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pick Location from Map"
+            android:layout_marginTop="12dp" />
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="#CCCCCC" />
+    </LinearLayout>
+</ScrollView>

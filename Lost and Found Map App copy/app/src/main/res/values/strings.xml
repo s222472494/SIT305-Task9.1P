@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">10.1P Lost and Found Map App</string>
+    <string name="google_maps_key">YOUR API KEY</string>
+
+    <!-- Add this array -->
+    <string-array name="advert_types">
+        <item>Lost</item>
+        <item>Found</item>
+        <item>Other</item>
+    </string-array>
+
+    <!-- Add this prompt string -->
+    <string name="select_type">Select Advert Type</string>
+
+</resources>

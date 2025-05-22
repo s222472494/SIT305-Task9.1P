@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#FFFFFF">
+
+    <Button
+        android:id="@+id/btnCreateAdvert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CREATE A NEW ADVERT"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#CCCCCC"
+        android:textAllCaps="true"/>
+
+    <Button
+        android:id="@+id/btnShowItems"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SHOW ALL LOST AND FOUND ITEMS"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#CCCCCC"
+        android:textAllCaps="true"/>
+
+    <Button
+        android:id="@+id/btnShowOnMap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SHOW ON MAP"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF"
+        android:textAllCaps="true"/>
+</LinearLayout>
